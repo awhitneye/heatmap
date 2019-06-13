@@ -375,7 +375,7 @@ looker.plugins.visualizations.add({
 		},
 		textMinMaxToggle: {
 			type: "string",
-			label: "Select Text or Min/Max Value for Legend",
+			label: "Select Text or Min/Max Value",
 			display: "radio",
 			default: "Text",
 			values: [
