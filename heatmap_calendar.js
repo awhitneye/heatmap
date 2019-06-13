@@ -335,7 +335,7 @@ looker.plugins.visualizations.add({
 	options: {
 		colorMin: {
 			label: 'Color Min',
-			default: '#D8E6E7',
+			default: '#d8e6e7',
 			type: 'string',
 			display: 'color',
 			display_size: "half",
@@ -343,7 +343,7 @@ looker.plugins.visualizations.add({
 		},
 		colorQ1: {
 			label: 'Color Q1',
-			default: '#AA3311',
+			default: '#aa3311',
 			type: 'string',
 			display: 'color',
 			display_size: "half",
@@ -351,7 +351,7 @@ looker.plugins.visualizations.add({
 		},
 		colorQ2: {
 			label: 'Color Q2',
-			default: '#AA3311',
+			default: '#aa3311',
 			type: 'string',
 			display: 'color',
 			display_size: "half",
@@ -359,7 +359,7 @@ looker.plugins.visualizations.add({
 		},
 		colorQ3: {
 			label: 'Color Q3',
-			default: '#AA3311',
+			default: '#aa3311',
 			type: 'string',
 			display: 'color',
 			display_size: "half",
@@ -390,7 +390,7 @@ looker.plugins.visualizations.add({
 			default: "Less",
 			hidden: function (config, queryResponse) {
 				return config.textMinMaxToggle === "Min/Max Values";
-			},
+			}(),
 			order: 7
 		},
 		moreText: {
@@ -399,7 +399,7 @@ looker.plugins.visualizations.add({
 			default: "More",
 			hidden: function (config, queryResponse) {
 				return config.textMinMaxToggle === "Min/Max Values";
-			},
+			}(),
 			order: 8
 		},
 	},
