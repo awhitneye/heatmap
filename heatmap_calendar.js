@@ -390,7 +390,7 @@ looker.plugins.visualizations.add({
 			default: "Less",
 			hidden: function (config, queryResponse) {
 				return config.textMinMaxToggle === "Min/Max Values";
-			}(),
+			},
 			order: 7
 		},
 		moreText: {
@@ -399,7 +399,7 @@ looker.plugins.visualizations.add({
 			default: "More",
 			hidden: function (config, queryResponse) {
 				return config.textMinMaxToggle === "Min/Max Values";
-			}(),
+			},
 			order: 8
 		},
 	},
