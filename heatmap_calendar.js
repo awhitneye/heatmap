@@ -330,8 +330,8 @@ function calendarHeatmap() {
 }
 
 looker.plugins.visualizations.add({
-	id: "calendar-heatmap",
-	label: "Calendar Heatmap",
+	id: "heatmap-v3",
+	label: "Calendar Heatmap V3",
 	options: {
 		colorMin: {
 			label: 'Color Min',
