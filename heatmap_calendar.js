@@ -375,7 +375,7 @@ looker.plugins.visualizations.add({
 		},
 		textMinMaxToggle: {
 			type: "string",
-			label: "Select Text or Min/Max Value",
+			label: "Select Text or Min/Max Value TESTY TESTY",
 			display: "radio",
 			default: "Text",
 			values: [
