@@ -329,8 +329,8 @@ function calendarHeatmap() {
 }
 
 looker.plugins.visualizations.add({
-	id: "calendar-heatmap",
-	label: "Calendar Heatmap",
+	id: "heatmap-v3",
+	label: "Calendar Heatmap V3",
 	options: {
 		colorMin: {
 			label: 'Color Min',
@@ -374,7 +374,7 @@ looker.plugins.visualizations.add({
 		},
 		textMinMaxToggle: {
 			type: "string",
-			label: "Select Text or Min/Max Value for Legend",
+			label: "Select Text or Min/Max Value for Legend TESTY TESTY",
 			display: "radio",
 			default: "Text",
 			values: [
@@ -389,7 +389,7 @@ looker.plugins.visualizations.add({
 			default: "Less",
 			hidden: function (config, queryResponse) {
 				return config.textMinMaxToggle === "Min/Max Values";
-			}(),
+			},
 			order: 7
 		},
 		moreText: {
@@ -398,7 +398,7 @@ looker.plugins.visualizations.add({
 			default: "More",
 			hidden: function (config, queryResponse) {
 				return config.textMinMaxToggle === "Min/Max Values";
-			}(),
+			},
 			order: 8
 		},
 	},
